@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="q1" xml:space="preserve">
+    <value>1 #include&lt;stdio.h&gt;
+2 #include&lt;conio.h&gt;
+3 #include&lt;math.h&gt;
+4 void main(){
+5 double n,i,sum=0;
+6 int j;
+7 clrscr();
+8 printf("Enter the number of terms:\n");
+9 scanf("%lf",&amp;n);
+10 for(i=1,j=1;i&lt;=n,j&lt;=n;i++,j++) {
+11  sum=sum+(pow(-1,i+1)*(1/i));
+12 if(i==1)
+13    printf("\n 1 -");
+14    printf(" (1/%.2lf)  ",i);
+15  else if(j%2==0)
+16    printf(" (1/%.2lf) + ",i);
+17  else
+18    printf(" (1/%.2lf) - ",i);
+19 }
+20 printf(" = %.2lf",sum);
+21 getch();
+22 }</value>
+  </data>
+  <data name="q1Code" xml:space="preserve">
+    <value>else if(i==n)</value>
+  </data>
+  <data name="q1LineNo" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="q1Output" xml:space="preserve">
+    <value>Enter the number of terms:
+5
+ 1 - (1/2.00) +  (1/3.00) -  (1/4.00) +  
+(1/5.00)   = 0.78</value>
+  </data>
+  <data name="q1TotalLines" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="q2" xml:space="preserve">
+    <value>1.	#include&lt;stdio.h&gt;
+2.	#include&lt;conio.h&gt;
+3.	#include&lt;math.h&gt;
+4.	double fact(double n);
+5.	void main()
+6.	{
+7.	 double n,i,x,sum=0;
+8.	 int j;
+9.	 clrscr();
+10.	 printf("Enter value of x:\n");
+11.	 scanf("%lf",&amp;x);
+12.	 printf("Enter the number of terms:\n");
+13.	 scanf("%lf",&amp;n);
+14.	 printf("%.2lf",x);
+15.	 for(i=1,j=1;i&lt;=n,j&lt;=n;i=i+2,j++)
+16.	{
+17.	  sum=sum+(pow(-1,j+1)*pow(x,i))/fact(i);
+18.	 }
+19.	 printf(" %.2lf",sum);
+20.	 getch();
+21.	}
+22.	{
+23.	 if(n==0)
+24.	 {
+25.	  return 1;
+26.	 }
+27.	 else
+28.	 {
+29.	 return(n*fact(n-1));
+30.	 }
+31.	}</value>
+  </data>
+  <data name="q2Code" xml:space="preserve">
+    <value>double fact(double n)</value>
+  </data>
+  <data name="q2LineNo" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="q2Output" xml:space="preserve">
+    <value>Enter value of x:
+5
+Enter the number of terms:
+5
+0.09</value>
+  </data>
+  <data name="q2TotalLines" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="q3" xml:space="preserve">
+    <value>1.	# include &lt;stdio.h&gt;
+2.	# include &lt;conio.h&gt;
+3.	void main()
+4.	{
+5.	int r, i, j, c = 1 ;
+6.	clrscr() ;
+7.	printf("Enter the number of rows : ") ;
+8.	scanf("%d", &amp;r) ;
+9.	printf("\nFloyd's triangle is : \n\n") ;
+10.	for(i = 0 ; i &lt; r ; i++)
+11.	{
+12.	for(j = 0 ; j &lt;= i ; j++)
+13.	{
+14.	printf("%-6d", c) ;
+15.	}
+16.	printf("\n\n") ;
+17.	}
+18.	getch() ;
+19.	}</value>
+  </data>
+  <data name="q3Code" xml:space="preserve">
+    <value>c++;</value>
+  </data>
+  <data name="q3LineNo" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="q3Output" xml:space="preserve">
+    <value>Enter the number of rows : 5
+
+Floyd's triangle is :
+
+             1
+
+          2     3
+
+       4     5     6
+
+     7     8     9     10
+
+11    12    13    14    15</value>
+  </data>
+  <data name="q3TotalLines" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="q4" xml:space="preserve">
+    <value>1.	#include&lt;stdio.h&gt;
+2.	#include&lt;conio.h&gt;
+3.	void main()
+4.	{
+5.		float x, sum, term, denr;
+6.		int i, n;
+7.		clrscr();
+8.		printf("enter the Value of x and (n) 
+   Number of terms to be sum \t :");
+9.		scanf("%f %d", &amp;x, &amp;n);
+10.		sum =1; term = 1;		
+11.		{
+12.		  denr = (2*i)*(2*i-1);
+13.		  term = -term*x*x/denr;
+14.		  sum =sum+ term;
+15.		}
+16.		printf("\nthe sum = %f\nNumber
+    of terms = %d\nvalue of x = %f\n",sum,n,x);
+17.		getch();
+18.	}</value>
+  </data>
+  <data name="q4Code" xml:space="preserve">
+    <value>for(i=1;i&lt;n;i++)</value>
+  </data>
+  <data name="q4LineNo" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="q4Output" xml:space="preserve">
+    <value>enter the Value of x and (n) Number of 
+terms to be sum   :5
+5
+the sum = 2.528397
+Number of terms = 5
+value of x  = 5.000000</value>
+  </data>
+  <data name="q4TotalLines" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="q5" xml:space="preserve">
+    <value>1.	# include &lt;stdio.h&gt;
+2.	# include &lt;conio.h&gt;
+3.	void main()
+4.	{
+5.	int b, p, q, r, x ;
+6.	clrscr() ;
+7.	b = 1 ;
+8.	q = 0 ;
+9.	printf("Enter the number of rows : ") ;
+10.	scanf("%d", &amp;p) ;
+11.	printf("\nPascal's triangle is : \n\n") ;
+12.	while (q &lt; p)
+13.	{
+14.	for(r = 40 - 3 * q ; r &gt; 0 ; --r)
+15.	printf(" ") ;
+16.	for(x = 0 ; x &lt;= q ; ++x)
+17.	{	
+18.	b = 1 ;
+19.	else
+20.	b = (b * (q - x + 1)) / x ;
+21.	printf("%6d", b) ;
+22.	}
+23.	printf("\n\n") ;
+24.	++q ;
+25.	}
+26.	getch() ;
+27.	}</value>
+  </data>
+  <data name="q5Code" xml:space="preserve">
+    <value>if((x==0)||(q==0))</value>
+  </data>
+  <data name="q5LineNo" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="q5Output" xml:space="preserve">
+    <value>Enter the number of rows : 5
+
+Pascal's triangle is :
+
+            1
+         1     1                             
+      1    2     1
+  1     3     3     1
+1   4     6     4     1</value>
+  </data>
+  <data name="q5TotalLines" xml:space="preserve">
+    <value>27</value>
+  </data>
+</root>
